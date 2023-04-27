@@ -4,7 +4,7 @@
 \alias{waitApiCooldown}
 \title{Wait for a specified number of seconds}
 \usage{
-waitApiCooldown(seconds = 60)
+waitApiCooldown(seconds = 10)
 }
 \arguments{
 \item{seconds}{The number of seconds to wait (default = 60)}

@@ -4,7 +4,7 @@
 #'
 #' @param seconds The number of seconds to wait (default = 60)
 #' @keywords wait time
-waitApiCooldown <- function(seconds = 60) {
+waitApiCooldown <- function(seconds = 10) {
   #print('waiting 60 seconds to reuse the API')
   Sys.sleep(seconds)
 }
