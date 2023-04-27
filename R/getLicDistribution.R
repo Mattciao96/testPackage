@@ -10,8 +10,6 @@
 #'
 #' @return a list of matched names, with the original names as the names of the list and the matched names as the values
 #'
-#' @examples
-#' matchLicName(c("Lactuca sativa", "Triticum aestivum"))
 #'
 #' @import httr
 #' @import jsonlite
