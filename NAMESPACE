@@ -3,6 +3,7 @@
 export(getLicDistribution)
 export(getRegionalLicChecklist)
 export(matchLicName)
+export(matchLicNameIndexFungorum)
 export(strsplit1)
 import(httr)
 import(jsonlite)
