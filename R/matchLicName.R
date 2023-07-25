@@ -62,8 +62,8 @@ matchLicName <-function(sp_names, subsp_marks = c(), var_marks = c(), form_marks
       # 500 server not available (blocks the function)
       # 429 API usage limit exceeded (the function should wait 60 sec)
       if (response$status_code == 500) {
-        print(sp_name)
-        stop("Impossible to connect to the server, please try again later")
+        #stop("Impossible to connect to the server, please try again later")
+        stop(sp_name)
       } else if (response$status_code == 429) {
         # wait the end of the api cooldown and retry
         waitApiCooldown()
